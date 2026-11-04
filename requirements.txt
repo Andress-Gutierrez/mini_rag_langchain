@@ -1,0 +1,10 @@
+# Mini RAG — LangChain + Chroma + Ollama (local, sin API de pago)
+# Requiere: Python 3.10 (usar: py -3.10 -m venv .venv)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0
+langchain-text-splitters>=0.3.0
+langchain-chroma>=0.1.4
+chromadb>=0.5.0
+python-dotenv>=1.0.0
