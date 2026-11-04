@@ -52,7 +52,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-`pip install` con Chroma/LangChain puede tardar varios minutos en la fase *Installing collected packages* (normal en Windows).
+`pip install` con Chroma/LangChain puede tardar varios minutos en la fase _Installing collected packages_ (normal en Windows).
 
 No hace falta `OPENAI_API_KEY`. Ollama debe estar abierto/servicio activo.
 
@@ -79,12 +79,12 @@ Escribe `salir` para terminar.
 
 ## Preguntas de prueba
 
-| Pregunta | Resultado esperado |
-|----------|--------------------|
-| ¿Cuántos días tengo para un reembolso? | 30 días desde la entrega |
-| ¿Qué pasa si cuesta más de 200 dólares? | Escala a humano |
-| ¿Se reembolsa un curso digital? | No (productos digitales) |
-| ¿De qué color es el logo? | “No lo sé…” (no está en el doc) |
+| Pregunta                                | Resultado esperado              |
+| --------------------------------------- | ------------------------------- |
+| ¿Cuántos días tengo para un reembolso?  | 30 días desde la entrega        |
+| ¿Qué pasa si cuesta más de 200 dólares? | Escala a humano                 |
+| ¿Se reembolsa un curso digital?         | No (productos digitales)        |
+| ¿De qué color es el logo?               | “No lo sé…” (no está en el doc) |
 
 ## Cómo se conecta a Ollama
 
@@ -122,12 +122,12 @@ mini_rag_langchain/
 
 ## Qué es / qué no es
 
-| Sí | No (aún) |
-|----|----------|
-| LangChain | LangGraph |
-| Chroma local | Cloud vector DB |
+| Sí                    | No (aún)                      |
+| --------------------- | ----------------------------- |
+| LangChain             | LangGraph                     |
+| Chroma local          | Cloud vector DB               |
 | Ollama local (gratis) | OpenAI de pago (en este mini) |
-| Chat CLI | Streamlit / web |
+| Chat CLI              | Streamlit / web               |
 
 ## Si reindexas
 
